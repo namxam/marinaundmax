@@ -33,7 +33,9 @@ h1 {
   font-family: "PopulaireLight";
   font-size: 8rem;
   color: #A7B7B9;
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  line-height: 1;
+  margin-bottom: 0; }
 
 h2 {
   font-family: "Neutraface", sans-serif;
@@ -50,7 +52,7 @@ h3 {
 
 section {
   padding: 4rem 2rem; }
-  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+  @media only screen and (min-width: 481px) {
     section {
       padding: 10rem 3rem; } }
   section.red {
@@ -73,11 +75,15 @@ dt {
 dd {
   margin: 0; }
 
+.wedding-date {
+  margin-bottom: 5rem;
+  font-size: 2.5rem; }
+
 .content {
   margin: 0 auto;
   max-width: 960px; }
 
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
+@media only screen and (min-width: 481px) {
   .columns {
     display: flex; } }
 
@@ -86,7 +92,7 @@ dd {
 
 .right {
   flex-basis: 50%; }
-  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+  @media only screen and (min-width: 481px) {
     .right {
       padding-left: 3rem; } }
 
@@ -96,11 +102,12 @@ dd {
   height: 300px; }
 
 .welcome {
-  text-align: center; }
+  text-align: center;
+  background: url("../images/kugeln-links.png") no-repeat; }
   @media only screen and (max-width: 480px) {
     .welcome {
       background: url("../images/kugeln-mitte.png") no-repeat; } }
-  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+  @media only screen and (min-width: 481px) {
     .welcome {
       background: url("../images/kugeln-links.png") no-repeat; } }
 
