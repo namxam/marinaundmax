@@ -8,6 +8,7 @@ $base-font-size: 1em
 $base-line-height: $base-font-size * 1.5
 $unitless-line-height: $base-line-height / ($base-line-height * 0 + 1)
 
+@import "mixins"
 @import "fonts"
 
 *
@@ -44,9 +45,13 @@ h3
   font-weight: 500
   margin-top: 3rem
   margin-bottom: 1rem
+  &:first-child
+    margin-top: 0
 
 section
-  padding: 10rem 3rem
+  padding: 4rem 2rem
+  +respond-to(tablet)
+    padding: 10rem 3rem
 
   &.red
     background-color: $red-color
@@ -71,13 +76,34 @@ dd
   margin: 0 auto
   max-width: 960px
 
+.columns
+  +respond-to(tablet)
+    display: flex
+.left
+  flex-basis: 50%
+.right
+  flex-basis: 50%
+  +respond-to(tablet)
+    padding-left: 3rem
+
+
+.map
+  border: none
+  width: 100%
+  height: 300px
 
 .welcome
   text-align: center
-  background: url('../images/kugeln-links.png') no-repeat
+  +respond-to(mobile)
+    background: url('../images/kugeln-mitte.png') no-repeat
+  +respond-to(tablet)
+    background: url('../images/kugeln-links.png') no-repeat
 
 .text-center
   text-align: center
+
+.spacer
+  height: 3rem
 
 .divider
   display: inline-block
