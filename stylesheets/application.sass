@@ -1,0 +1,85 @@
+$background-color: #f4efe7
+$red-color: #DF5349
+$apricot-color: #ED9C7A
+$grey-color: #A7B7B9
+$text-color: #8E9C9F
+
+$base-font-size: 1em
+$base-line-height: $base-font-size * 1.5
+$unitless-line-height: $base-line-height / ($base-line-height * 0 + 1)
+
+@import "fonts"
+
+*
+  box-sizing: border-box
+
+html
+  // 1rem is almost 10px
+  font-size: 62.5%
+
+body
+  position: relative
+  -webkit-font-smoothing: antialiased
+  font-family: "Neutraface", sans-serif
+  line-height: 1.4
+  font-size: 18px
+  font-size: 1.8rem
+  font-weight: 400
+  color: $text-color
+  background-color: $background-color
+
+h1
+  font-family: "PopulaireLight"
+  font-size: 8rem
+  color: $grey-color
+  letter-spacing: 3px
+
+h2
+  font-family: "Neutraface", sans-serif
+  font-weight: 500
+  text-transform: uppercase
+
+h3
+  font-family: "Neutraface", sans-serif
+  font-weight: 500
+  margin-top: 3rem
+  margin-bottom: 1rem
+
+section
+  padding: 10rem 3rem
+
+  &.red
+    background-color: $red-color
+    color: white
+  &.apricot
+    background-color: $apricot-color
+    color: white
+  &.grey
+    background-color: $grey-color
+    color: white
+
+dl
+  margin: 0
+dt
+  margin-top: 1rem
+  font-weight: 500
+dd
+  margin: 0
+
+
+.content
+  margin: 0 auto
+  max-width: 960px
+
+
+.welcome
+  text-align: center
+  background: url('../images/kugeln-links.png') no-repeat
+
+.text-center
+  text-align: center
+
+.divider
+  display: inline-block
+  margin: 3rem 0 0
+  width: 50px

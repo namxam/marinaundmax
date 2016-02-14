@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "PopulaireLight";
+  src: url(../fonts/PopulaireLight.ttf) format("truetype"); }
+@font-face {
+  font-family: "Neutraface";
+  src: url(../fonts/PopulaireLight.ttf) format("truetype"); }
+@font-face {
+  font-family: "Neutraface";
+  src: url("../fonts/NeutraText-Book.ttf") format("truetype");
+  font-weight: 400; }
+@font-face {
+  font-family: "Neutraface";
+  src: url("../fonts/NeutraText-Demi.ttf") format("truetype");
+  font-weight: 500; }
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Neutraface", sans-serif;
+  line-height: 1.4;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #8E9C9F;
+  background-color: #f4efe7; }
+
+h1 {
+  font-family: "PopulaireLight";
+  font-size: 8rem;
+  color: #A7B7B9;
+  letter-spacing: 3px; }
+
+h2 {
+  font-family: "Neutraface", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+h3 {
+  font-family: "Neutraface", sans-serif;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-bottom: 1rem; }
+
+section {
+  padding: 10rem 3rem; }
+  section.red {
+    background-color: #DF5349;
+    color: white; }
+  section.apricot {
+    background-color: #ED9C7A;
+    color: white; }
+  section.grey {
+    background-color: #A7B7B9;
+    color: white; }
+
+dl {
+  margin: 0; }
+
+dt {
+  margin-top: 1rem;
+  font-weight: 500; }
+
+dd {
+  margin: 0; }
+
+.content {
+  margin: 0 auto;
+  max-width: 960px; }
+
+.welcome {
+  text-align: center;
+  background: url("../images/kugeln-links.png") no-repeat; }
+
+.text-center {
+  text-align: center; }
+
+.divider {
+  display: inline-block;
+  margin: 3rem 0 0;
+  width: 50px; }
+
+/*# sourceMappingURL=application.css.map */
