@@ -52,7 +52,7 @@ h3 {
 
 section {
   padding: 4rem 2rem; }
-  @media only screen and (min-width: 481px) {
+  @media only screen and (min-width: 641px) {
     section {
       padding: 10rem 3rem; } }
   section.red {
@@ -83,7 +83,7 @@ dd {
   margin: 0 auto;
   max-width: 960px; }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 641px) {
   .columns {
     display: flex; } }
 
@@ -92,7 +92,7 @@ dd {
 
 .right {
   flex-basis: 50%; }
-  @media only screen and (min-width: 481px) {
+  @media only screen and (min-width: 641px) {
     .right {
       padding-left: 3rem; } }
 
@@ -104,10 +104,10 @@ dd {
 .welcome {
   text-align: center;
   background: url("../images/kugeln-links.png") no-repeat; }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     .welcome {
       background: url("../images/kugeln-mitte.png") no-repeat; } }
-  @media only screen and (min-width: 481px) {
+  @media only screen and (min-width: 641px) {
     .welcome {
       background: url("../images/kugeln-links.png") no-repeat; } }
 
